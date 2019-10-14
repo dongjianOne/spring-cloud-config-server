@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/dongjianOne/springcloud-config/
-          search-paths: config-repo #git地址下的相对地址，可以配置多个，用，隔开
+          uri: https://github.com/dongjianOne/spring-cloud-config-server.git
+          search-paths: src/main/java/com/yml/ #git地址下的相对地址，可以配置多个，用，隔开
           username: dongjianOne
           password: dj975573.
 
